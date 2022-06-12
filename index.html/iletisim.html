@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>İletişim</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/d755b7edb1.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        footer img {
+            opacity: 0.5;
+            transform: scale(1);
+            transition: all 1.5S;
+            transition-delay: 0.3s;
+        }
+
+        footer img:hover {
+            opacity: 1.2;
+            transform: scale(2) rotate(720deg);
+        }
+
+        #iletişim li {
+            display: inline-block;
+            width: 100px;
+            text-align: center;
+            text-transform: uppercase;
+
+        }
+
+        footer {
+            margin-top: 200px;
+        }
+    </style>
+    <script>
+
+    </script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Profil Sayfam</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="anasayfa.html" target="_blank">Anasayfa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hakkımda.html" target="_blank">Hakkımda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html" target="_blank">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="iletisim.html">İletişim</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <form>
+        <br><br>
+        <br><br>
+        <br><br>
+        <div class="container">
+            <h2 style="text-align: center;">Benimle iletişime geçmek için</h2>
+            <div class="row">
+                <div class="col">
+                    <label for="exampleFormControlInput1">İsim</label>
+                    <input type="text" class="form-control" placeholder="Adınızı giriniz">
+                </div>
+                <div class="col">
+                    <label for="exampleFormControlInput1">Soyisim</label>
+                    <input type="text" class="form-control" placeholder="Soyadınızı Giriniz">
+                </div>
+            </div>
+            <hr></hr>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email Adres</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="isim@ornek.com">
+            </div>
+            <hr></hr>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Açıklama Bölümü</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <hr>
+            </hr>
+            <button type="submit" class="btn btn-outline-primary">Gönder</button>
+        </div>
+    </form>
+
+    <footer>
+        <div class="jumbotron text-center" style="margin-bottom:0">
+            <p style="font-size: 20px;">Bana ulaşın</p>
+            <ul id="iletişim">
+                <li class="liste"><a href="https://www.facebook.com/efe.aksu.7" target="_blank"><img src="face.png"></a>
+                </li>
+                <li class="liste"><a href="https://github.com/efeaksu" target="_blank"><img src="git.png"></a></li>
+                <li class="liste"><a href="https://www.instagram.com/efettrw/" target="_blank"><img src="insta.png"></a>
+                </li>
+                <li class="liste"><a href="https://www.linkedin.com/in/efe-aksu-43040a237/" target="_blank"><img
+                            src="linkedin(2).png"></a></li>
+                <li class="liste"><a href="mailto:mrefearic@gmail.com"><img src="email.png" target="_blank"></a></li>
+            </ul>
+            <p>Mehmet Efe AKSU | © Copyright 2022 Tüm Hakları Saklıdır</p>
+        </div>
+    </footer>
+</body>
+
+</html>
